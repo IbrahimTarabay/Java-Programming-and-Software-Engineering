@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MarkovRunner
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ compareMethods()
+comment2.text=public\ void\ runModel(IMarkovModel\ markov,\ String\ text,int\ size){\r\n\ \ \r\n\ \ \ \ \ markov.setTraining(text);\r\n\ \ \ \ \ \r\n\ \ \ \ \ System.out.println("running\ with\ "+markov);\r\n\ \ \ \ \r\n\ \ \ \ \ for(int\ k\=0;k<3;k++){\r\n\ \ \ \ \ \ \ \ String\ st\ \=\ markov.getRandomText(size);\r\n\ \ \ \ \ \ \ \ printOut(st);\r\n\ \ \ \ \ }\r\n}
+comment3.params=markov\ text\ size\ seed
+comment3.target=void\ runModel(IMarkovModel,\ java.lang.String,\ int,\ int)
+comment4.params=s
+comment4.target=void\ printOut(java.lang.String)
+comment4.text=public\ void\ runMarkov()\ {\ \r\n\ \ \ \ \ \ \ \ FileResource\ fr\ \=\ new\ FileResource();\ \r\n\ \ \ \ \ \ \ \ String\ st\ \=\ fr.asString();\ \r\n\ \ \ \ \ \ \ \ st\ \=\ st.replace('\\n',\ '\ ');\ \r\n\ \ \ \ \ \ \ \ MarkovWord\ markovWord\ \=\ new\ MarkovWord(3);\r\n\ \ \ \ \ \ \ \ runModel(markovWord,\ st,\ 621);\r\n}
+comment5.params=
+comment5.target=void\ testHashMap()
+numComments=6

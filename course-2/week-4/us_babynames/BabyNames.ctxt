@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=BabyNames
+comment1.params=year\ gender
+comment1.target=int\ getNumberOfGenderNames(int,\ java.lang.String)
+comment2.params=year\ name\ gender
+comment2.target=int\ getRank(int,\ java.lang.String,\ java.lang.String)
+comment3.params=year\ rank\ gender
+comment3.target=java.lang.String\ getName(int,\ int,\ java.lang.String)
+comment4.params=name\ year\ newYear\ gender
+comment4.target=void\ whatIsNameInYear(java.lang.String,\ int,\ int,\ java.lang.String)
+comment5.params=name\ gender
+comment5.target=int\ yearOfHighestRank(java.lang.String,\ java.lang.String)
+comment6.params=name\ gender
+comment6.target=double\ getAverageRank(java.lang.String,\ java.lang.String)
+comment6.text=This\ method\ selects\ a\ range\ of\ files\ to\ process\ and\ returns\ a\ double\ representing\ the\ average\ rank\ of\ the\ name\ and\ gender\ over\r\n\ the\ selected\ files.\ It\ should\ return\ -1.0\ if\ the\ name\ is\ not\ ranked\ in\ any\ of\ the\ selected\ files.\r\n\ For\ example\ calling\ getAverageRank\ with\ name\ Mason\ and\ gender\ \u2018M\u2019\ and\ selecting\ the\ three\ test\ files\ above\ results\ in\ returning\ 3.0,\r\n\ as\ he\ is\ rank\ 2\ in\ the\ year\ 2012,\ rank\ 4\ in\ 2013\ and\ rank\ 3\ in\ 2014.\ As\ another\ example,\r\n\ calling\ getAverageRank\ with\ name\ Jacob\ and\ gender\ \u2018M\u2019\ and\ selecting\ the\ three\ test\ files\ above\ results\ in\ returning\ 2.66.\r\n
+comment7.params=gender\ rank\ year
+comment7.target=int\ totalBirths(java.lang.String,\ int,\ int)
+comment7.text=This\ method\ returns\ an\ integer,\ the\ total\ number\ of\ births\ of\ those\ names\ with\ the\ same\ gender\ and\ \r\n\ \ \ \ \ same\ year\ who\ are\ ranked\ higher\ than\ name.\r\n\ \ \ \ \ For\ example,\ if\ getTotalBirthsRankedHigher\ accesses\ the\ "yob2012short.csv"\ file\ with\ name\ set\ to\ \u201CEthan\u201D,\r\n\ \ \ \ \ gender\ set\ to\ \u201CM\u201D,\ and\ year\ set\ to\ 2012,\ then\ this\ method\ should\ return\ 15,\r\nsince\ Jacob\ has\ 8\ births\ and\ Mason\ has\ 7\ births,\ and\ those\ are\ the\ only\ two\ ranked\ higher\ than\ Ethan.
+comment8.params=year\ name\ gender
+comment8.target=int\ getTotalBirthsRankedHigher(int,\ java.lang.String,\ java.lang.String)
+comment9.params=
+comment9.target=void\ getRanktest()
+numComments=10

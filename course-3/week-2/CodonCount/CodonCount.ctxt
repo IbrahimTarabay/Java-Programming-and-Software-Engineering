@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=CodonCount
+comment1.params=
+comment1.target=CodonCount()
+comment1.text=Initializes\ any\ private\ variables.
+comment2.params=start\ dna
+comment2.target=void\ buildCodonMap(int,\ java.lang.String)
+comment2.text=Builds\ a\ new\ map\ of\ condons\ mapped\ to\ their\ counts\ from\ the\ string\ dna
+comment3.params=
+comment3.target=java.lang.String\ getMostCommonCodon()
+comment3.text=Return\ a\ String,\ the\ codon\ in\ a\ reading\ frame\ that\r\n\ \ \ \ \ \ \ has\ the\ largest\ count\ if\ there\ are\ several\ such\ codons,\r\nreturn\ any\ one\ of\ them
+comment4.params=start\ end
+comment4.target=void\ printCodonCounts(int,\ int)
+comment4.text=prints\ all\ the\ codons\ in\ the\ hashMap\ along\ with\ their\ counts\ if\r\ntheir\ count\ is\ between\ start\ and\ end,\ inclusive
+comment5.params=
+comment5.target=void\ tester()
+numComments=6

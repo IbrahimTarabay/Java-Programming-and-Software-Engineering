@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=EarthQuakeClient
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment10.params=list
+comment10.target=void\ dumpCSV(java.util.ArrayList)
+comment2.params=
+comment2.target=EarthQuakeClient()
+comment3.params=quakeData\ magMin
+comment3.target=java.util.ArrayList\ filterByMagnitude(java.util.ArrayList,\ double)
+comment4.params=quakeData\ distMax\ from
+comment4.target=java.util.ArrayList\ filterByDistanceFrom(java.util.ArrayList,\ double,\ Location)
+comment5.params=quakeData\ minDepth\ maxDepth
+comment5.target=java.util.ArrayList\ filterByDepth(java.util.ArrayList,\ double,\ double)
+comment6.params=quakeData\ where\ phrase
+comment6.target=java.util.ArrayList\ filterByPhrase(java.util.ArrayList,\ java.lang.String,\ java.lang.String)
+comment7.params=
+comment7.target=void\ quakesByPhrase()
+comment8.params=
+comment8.target=void\ quakesOfDepth()
+comment9.params=
+comment9.target=void\ bigQuakes()
+numComments=11
